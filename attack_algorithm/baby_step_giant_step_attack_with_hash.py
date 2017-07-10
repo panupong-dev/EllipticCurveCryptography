@@ -1,6 +1,7 @@
 import math
 import operator
-from baby_step_giant_step_attack import BabyStepGiantStepAttack as Baby
+
+from attack_algorithm.baby_step_giant_step_attack import BabyStepGiantStepAttack as Baby
 
 
 class BabyStepGiantStepAttackWithHash:
