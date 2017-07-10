@@ -1,7 +1,7 @@
-from create_elliptic import CreateElliptic as Elliptic
-from exhaustive_attack import ExhaustiveAttack as Exhaustive
-from baby_step_giant_step_attack import BabyStepGiantStepAttack as babyStepGiantStep
-from baby_step_giant_step_attack_with_hash import BabyStepGiantStepAttackWithHash as babyHash
+from attack_algorithm.baby_step_giant_step_attack_with_hash import BabyStepGiantStepAttackWithHash as babyHash
+from attack_algorithm.exhaustive_attack import ExhaustiveAttack as Exhaustive
+from attack_algorithm.baby_step_giant_step_attack import BabyStepGiantStepAttack as babyStepGiantStep
+from elliptic.create_elliptic import CreateElliptic as Elliptic
 
 if __name__ == '__main__':
     key_size = 128
